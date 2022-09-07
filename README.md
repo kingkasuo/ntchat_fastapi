@@ -1,5 +1,9 @@
 ## NtChat fastapi完整示例
 
+通过make-exe.cmd程序，执行后生成ntchat-api.exe可执行程序
+![Screenshot_2](https://user-images.githubusercontent.com/792288/188784384-00811e92-39d8-4e31-8aee-2d79b60b5449.png)
+
+
 通过fastapi的swagger在线文档可以很方便的管理NtChat接口
 ![vfazT0.jpg](https://s1.ax1x.com/2022/08/29/vfazT0.jpg)
 
