@@ -90,7 +90,7 @@ async def user_get_profile(model: models.ClientReqModel):
 @catch_exception()
 async def get_contacts(model: models.ClientReqModel):
     data = client_mgr.get_client(model.guid).get_contacts()
-    print(data)
+    #print(data)
     return response_json(1, data)
 
 
@@ -99,7 +99,7 @@ async def get_contacts(model: models.ClientReqModel):
 @catch_exception()
 async def search_contacts(model: models.ClientSearchModel):
     data = client_mgr.get_client(model.guid).search_contacts(model.wxid, model.account, model.nickname, model.remark)
-    print(data)
+    #print(data)
     return response_json(1, data)
 
 
