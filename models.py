@@ -147,3 +147,11 @@ class SendLinkCardReqModel(SendMsgReqModel):
 class SendMediaReqModel(SendMsgReqModel):
     file_path: Optional[str] = ""
     url: Optional[str] = ""
+        
+        
+
+class SendPatReqModel(ClientReqModel):
+    room_wxid: str
+    wxid: str
+        
+        
